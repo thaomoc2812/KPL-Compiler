@@ -1,0 +1,12 @@
+
+gcc -c scanner.c 
+
+gcc -c reader.c
+
+gcc -c token.c
+
+gcc -c error.c
+
+gcc -c charcode.c
+
+gcc -o scanner scanner.o reader.o token.o error.o charcode.o

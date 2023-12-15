@@ -1,0 +1,5 @@
+Program TEST;
+VAR c: Integer;
+Begin
+5 + 7 := 7;
+End.
