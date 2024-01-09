@@ -1,0 +1,21 @@
+gcc -c main.c 
+
+gcc -c debug.c
+
+gcc -c semantics.c
+
+gcc -c symtab.c
+
+gcc -c parser.c 
+
+gcc -c scanner.c 
+
+gcc -c reader.c
+
+gcc -c token.c
+
+gcc -c error.c
+
+gcc -c charcode.c
+
+gcc -o parser main.o debug.o semantics.o symtab.o parser.o scanner.o reader.o token.o error.o charcode.o
